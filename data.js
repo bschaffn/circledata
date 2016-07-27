@@ -34,8 +34,8 @@ $( document ).ready(function(){
 	svg.selectAll("circle")
 		.data(CircleGrid.sizes)
 		.enter().append("circle")
-		.attr("cx", 60)
-		.attr("cy", function(d, i) { return i * 100 + 30; })
+		.attr("cy", 60)
+		.attr("cx", function(d, i) { return i * 100 + 30; })
 		.attr("r", function(d) { return Math.sqrt(d); })
 
 });
