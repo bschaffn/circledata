@@ -1,0 +1,9 @@
+{
+	"libs": [
+		"browser",
+		"jquery"
+	],
+	"loadEagerly": [
+		"lib/d3.v4.min.js"
+	]
+}
